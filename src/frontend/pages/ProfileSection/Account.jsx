@@ -65,7 +65,7 @@ function Account() {
           </div>
 
           <Routes>
-            <Route path="overview/*" element={<Overview/>}/>
+            <Route path="overview" element={<Overview/>}/>
             <Route path="payment" element={<Payment/>}/>
             <Route path="shipping" element={<Shipping/>}/>
             <Route path="orders" element={<Order/>}/>
